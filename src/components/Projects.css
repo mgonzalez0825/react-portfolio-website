@@ -5,7 +5,8 @@
   padding: 20px;
   text-align: center;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+
+
 }
 
 
@@ -23,17 +24,12 @@
 }
 
   
-  .project1-details:hover {
-    background-color: #e8eff1; /* Change the background color on hover */
-  }
 
  
 .project1-details{
     border: 3px solid #ddd;
     padding: 20px;
     margin: 20px;
-    width:30%; /* Set a fixed width */
-    height: 30%; /* Set a fixed height */
     background: url(../images/BattleKnights.jpeg) no-repeat center center ; 
     background-size: cover;
     background-color: transparent; /* Remove the default background color */
@@ -46,8 +42,14 @@
     color: #333; /* Set the text color to white */
     margin-bottom: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex ;
+    display:flexbox;
     justify-content:left;
+    padding: 20px;
+    margin: 20px;
+    width:30%; /* Set a fixed width */
+    height: 30%; /* Set a fixed height */
+    min-width: 250px;
+
 }
 
 
@@ -56,9 +58,7 @@
     border: 3px solid #ddd;
     padding: 20px;
     margin: 20px;
-    width:30%; /* Set a fixed width */
-    height: 30%; /* Set a fixed height */
-    transition: #e8eff1 0.3s ease;
+  
     background: url(../images/BattleKnights.jpeg) no-repeat center center ; 
     background-size: cover;
     background-color: transparent; /* Remove the default background color */
@@ -89,4 +89,6 @@
   
   
   
+
   
+ 
