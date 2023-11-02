@@ -27,7 +27,7 @@ const About = () => {
               <i> <FontAwesomeIcon icon={faGithub} size="xl" /></i>
                 GitHub
               </a>
-              <a href="../downloads/MannyGonzalezResume.pdf" download="MannyGonzalezResume.pdf">
+              <a href="/src/downloads/MannyGonzalezResume.pdf" download="MannyGonzalezResume.pdf">
               <i><FontAwesomeIcon icon={faDownload} size="xl" /></i>  
                 Download Resume
               </a>
