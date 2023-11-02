@@ -19,11 +19,11 @@ const Projects = () => {
             </a>
         </div>
         <div className="project2-details">
-          <h3>Project 2</h3>
+          <h3>EMOS</h3>
           <p className="project-description">
-            Description of Project 2 goes here.fghfhghsdgfdfdghjgh
+            Employee Management System
           </p>
-          <a href="https://battleknights.xyz" target="_blank" rel="noopener noreferrer">
+          <a href="https://emos.netlify.app" target="_blank" rel="noopener noreferrer">
               Visit Website
             </a>
         </div>
