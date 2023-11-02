@@ -1,0 +1,48 @@
+/* Contact.css */
+
+.contact-section {
+  
+    background-color: #693b3b; /* Set the background color for the header */
+    padding: 10px 0; /* Add some padding to the header */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  .contact-title {
+    font-size: 1.5rem;
+    color: #fff; /* Set the text color to white */
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #fff; /* Set the text color to white */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .contact-links a:hover {
+    text-decoration: none;
+  }
+
+  
+
+
+  

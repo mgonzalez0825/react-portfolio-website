@@ -1,0 +1,81 @@
+/* Header.css */
+
+/* Header styling */
+header {
+    background-color: #693b3b;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .left-section h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0;
+    padding-left: 3%;
+  }
+  
+  .right-section {
+    display: flex;
+    padding-right: 3%;
+  }
+  
+  .right-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 20px;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dropbtn {
+    background-color: #693b3b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .dropdown-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    display: none;
+    position: absolute;
+    background-color: #693b3b;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
