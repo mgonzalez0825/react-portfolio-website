@@ -72,3 +72,19 @@
   .about-links a:hover {
     text-decoration: underline;
   }
+
+  /* Apply styles for screens with a maximum width of 768px (typical for phones) */
+@media (max-width: 768px) {
+  .about-image {
+    max-width: 50%; /* Reduce the image size for smaller screens */
+    margin-right: 10px; /* Reduce the margin for space optimization */
+  }
+
+  .about-title {
+    font-size: 1.2rem; /* Adjust the title font size for readability */
+  }
+
+  .about-links a {
+    font-size: 0.9rem; /* Adjust the link text size */
+  }
+}
