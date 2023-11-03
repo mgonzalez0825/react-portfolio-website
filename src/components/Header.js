@@ -3,7 +3,7 @@ import './Header.css'; // Import the CSS file
 
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
 
   const toggleMenu = () => {
