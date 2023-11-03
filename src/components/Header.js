@@ -1,15 +1,28 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import './Header.css'; // Import the CSS file
 
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-
+  // Function to toggle the menu
   const toggleMenu = () => {
-    setShowMenu(!showMenu);
+    setMenuOpen(!menuOpen);
   };
+// Use useEffect to close the menu when the screen size exceeds a certain width
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setMenuOpen(false); // Close the menu on larger screens
+      }
+    };
 
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <header>
@@ -18,10 +31,10 @@ const Header = () => {
       </div>
       <div className="right-section">
         
-      <button className="menu-button" onClick={toggleMenu}>
+      <button className="menu-toggle" onClick={toggleMenu}>
           <i className="fas fa-bars"></i>
         </button>
-        <nav className={showMenu ? 'show' : ''}>
+        <nav className={menuOpen ? 'show' : ''}>
           <a href="#about">About</a>
           {/* <a href="#projects">Projects</a> */}
           

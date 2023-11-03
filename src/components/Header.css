@@ -96,4 +96,11 @@ header {
   nav.show {
     display: block; /* Display the navigation menu when the show class is applied */
   }
-}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none; /* Hide the navigation menu by default on smaller screens */
+  }
+  
+}}
