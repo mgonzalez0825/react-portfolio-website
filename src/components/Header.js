@@ -13,7 +13,7 @@ const Header = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
-        setMenuOpen(false); // Close the menu on larger screens
+        setMenuOpen(true); // Close the menu on larger screens
       }
     };
 
@@ -42,7 +42,8 @@ const Header = () => {
             <button className="dropbtn">Projects</button>
             <div className="dropdown-content">
               <a href="https://battleknights.xyz" target="_blank" rel="noopener noreferrer">Battle Knights</a>
-              <a href="#project2">Project 2</a>
+              <a href="https://emos.netlify.app" target="_blank" rel="noopener noreferrer">Emos</a>
+              
             </div>
           </div>
 
