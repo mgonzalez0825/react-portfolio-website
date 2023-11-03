@@ -1,14 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css'; // Import the CSS file
 
+
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+
   return (
     <header>
       <div className="left-section">
         <h1>Manny Gonzalez</h1>
       </div>
       <div className="right-section">
-        <nav>
+        
+      <button className="menu-button" onClick={toggleMenu}>
+          <i className="fas fa-bars"></i>
+        </button>
+        <nav className={showMenu ? 'show' : ''}>
           <a href="#about">About</a>
           {/* <a href="#projects">Projects</a> */}
           

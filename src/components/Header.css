@@ -79,3 +79,21 @@ header {
     display: block;
   }
   
+
+.menu-button {
+  display: none; /* Hide the menu button by default */
+}
+
+@media screen and (max-width: 768px) {
+  .menu-button {
+    display: block; /* Display the menu button on smaller screens */
+  }
+
+  nav {
+    display: none; /* Hide the navigation menu by default on smaller screens */
+  }
+
+  nav.show {
+    display: block; /* Display the navigation menu when the show class is applied */
+  }
+}
