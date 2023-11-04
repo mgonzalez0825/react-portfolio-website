@@ -5,7 +5,7 @@
    
     padding: 40px;
     text-align: center;
-    background-color: #e8eff1;
+    background-color: #488da0;
   }
   
   .container {
@@ -26,7 +26,7 @@
     
     align-items:center;
     display: flex;
-    flex-wrap: wrap; /* Allow content to wrap to the next line when the window is narrow */
+    flex-wrap: wrap; /*Allow content to wrap to the next line when the window is narrow */
     justify-content: center; /* Center-align the content horizontally */
 }
   
@@ -35,7 +35,7 @@
     max-width: 30%;
     max-width: 10%;  /*Ensure the image doesn't exceed its container width*/
     border-radius: 50%; /* Add rounded corners for a circular image (optional) */
-    margin-right: 20px; /* Add margin to create space between the image and text */
+    margin-right: 10px; /* Add margin to create space between the image and text */
     
     
 }
@@ -65,7 +65,7 @@
   
   .about-links a {
     text-decoration:none;
-    color: #0077b5; /* LinkedIn blue color */
+    color: #05324a; /* LinkedIn blue color */
     font-weight: bold;
   }
   
@@ -76,7 +76,7 @@
   /* Apply styles for screens with a maximum width of 768px (typical for phones) */
 @media (max-width: 768px) {
   .about-image {
-    max-width: 50%; /* Reduce the image size for smaller screens */
+    max-width: 20%; /* Reduce the image size for smaller screens */
     margin-right: 10px; /* Reduce the margin for space optimization */
   }
 
