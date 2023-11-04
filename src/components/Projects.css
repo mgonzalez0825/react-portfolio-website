@@ -60,7 +60,7 @@
     margin: 20px;
   
     background: url(../images/emos.jpeg) no-repeat center center ; 
-    background-size: cover;
+    background-size:40%;
     background-color: transparent; /* Remove the default background color */
     color: #333;
     font-weight: 600;
