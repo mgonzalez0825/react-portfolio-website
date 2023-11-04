@@ -9,20 +9,22 @@ const Projects = () => {
       <div className="container">
         <h2 className="projects-title">Projects</h2>
         <div className="project-cards">
-        <div className="project1-details">
-          <h3>Battle Knights</h3>
+        <h4>Battle Knights</h4>
           <p className="project-description">
             An NFT battle game.Play,collect and win.  
           </p>
+        <div className="project1-details">
+          
           <a href="https://battleknights.xyz" target="_blank" rel="noopener noreferrer">
               Visit Website
             </a>
         </div>
-        <div className="project2-details">
-          <h3>EMOS</h3>
+        <h4>EMOS</h4>
           <p className="project-description">
             Employee Management System
           </p>
+        <div className="project2-details">
+          
           <a href="https://emos.netlify.app" target="_blank" rel="noopener noreferrer">
               Visit Website
             </a>

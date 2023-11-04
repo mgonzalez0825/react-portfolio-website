@@ -42,7 +42,7 @@ const Header = () => {
             <button className="dropbtn">Projects</button>
             <div className="dropdown-content">
               <a href="https://battleknights.xyz" target="_blank" rel="noopener noreferrer">Battle Knights</a>
-              <a href="https://emos.netlify.app" target="_blank" rel="noopener noreferrer">Emos</a>
+              <a href="https://emos.netlify.app" target="_blank" rel="noopener noreferrer">EMOS</a>
               
             </div>
           </div>
