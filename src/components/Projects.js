@@ -29,6 +29,16 @@ const Projects = () => {
               Visit Website
             </a>
         </div>
+        <h4>ParKonnect</h4>
+          <p className="project-description">
+            Parking Reservations Web App
+          </p>
+        <div className="project3-details">
+          
+          <a href="https://parkonnect.netlify.app" target="_blank" rel="noopener noreferrer">
+              Visit Website
+            </a>
+        </div>
         </div>
       </div>
     </section>

@@ -1,15 +1,17 @@
 /* Projects.css */
 
 #projects {
-  background-color: #f7f7f7;
+  
+
+background-color: #f7f7f7;
   padding: 20px;
   text-align: center;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flexbox; /* Use Flexbox to create a horizontal layout */
+  justify-content: space-around; /* Distribute items with equal space around them */
+  flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
 
 }
-
-
 .projects-title {
   font-size: 1.5rem;
   color: #333;
@@ -29,8 +31,8 @@
  
 .project1-details{
     border: 3px solid #ddd;
-    padding: 25px;
-    margin: 20px;
+    padding: 22px;
+    margin: 18px;
     background: url(../images/BattleKnights.jpeg) no-repeat center center ; 
     background-size:cover;
     background-color: #488da0; /* Remove the default background color */
@@ -43,7 +45,7 @@
     color: #333; /* Set the text color to white */
     margin-bottom: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display:flexbox;
+    display:contents;
     justify-content:left;
     width:30%; /* Set a fixed width */
     height: 30%; /* Set a fixed height */
@@ -69,7 +71,18 @@
     font-weight: 600;
 }
 
+.project3-details{
+  border: 3px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  background: url(../images/ParKonnect.png) no-repeat center center ; 
+  background-size:cover;
+  background-color: #488da0; /* Remove the default background color */
+  color: #333;
+  font-weight: 600;
+}
 
+.project3-details a,
 .project2-details a,
 .project1-details a {
     text-decoration: none;
@@ -83,6 +96,7 @@
    
   }
   
+  .project3-details a,
   .project2-details a:hover,
   .project1-details a:hover {
     color: #0056b3; /* Color change on hover */
